@@ -2,4 +2,4 @@
 
 Draft version.
 
-[Live preview](https://macieksznu.github.io/Portfolio/ "Portfolio")
+[Live preview](https://macieksznu.github.io/Portfolio/index.html "Portfolio")
