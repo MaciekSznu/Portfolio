@@ -1,0 +1,102 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  &__list {
+    width: 100vw;
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: .95;
+    font: $mobile-menu-font;
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      line-height: 40px;
+      background-color: $nav-bg-color;
+      color: $nav-text-color;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid $nav-bg-color-hover;
+      }
+
+      &:hover {
+        background-color: $nav-bg-color-hover;
+        color: $nav-text-color-hover;
+
+        .hamburger-menu {
+          background-color: $nav-bg-color-hover;
+        }
+
+        .hamburger-menu-line, .hamburger-menu-line:before, .hamburger-menu-line:after {
+          background: $nav-text-color-hover;
+        }
+      }
+
+      .hamburger-menu {
+        width: 20px;
+        height: 30px;
+        background: $nav-bg-color;
+        border: none;
+        padding: 0;
+        outline: $nav-bg-color;
+        cursor: pointer;
+
+        &-line {
+          position: relative;
+          display: block;
+          height: 2px;
+          width: 100%;
+          background: $nav-text-color;
+
+          &:before {
+            position: absolute;
+            content: '';
+            height: 2px;
+            width: 100%;
+            left: 0;
+            top: 7px;
+            background: $nav-text-color;
+          }
+
+          &:after {
+            position: absolute;
+            content: '';
+            height: 2px;
+            width: 100%;
+            left: 0;
+            bottom: 7px;
+            background: $nav-text-color;
+          }
+        }
+
+        &:focus {
+          color: $nav-text-color;
+        }
+
+        // &:hover {
+        //   background-color: $nav-bg-color-hover;
+
+        //   .hamburger-menu-line, .hamburger-menu-line:before, .hamburger-menu-line:after {
+        //     background: $nav-text-color-hover;
+        //   }
+        // }
+      }
+    }
+  }
+  @media (min-width: $media-desktop-size) {
+    display: none;
+  }
+}
+
+.mobile-menu.mobile-hidden {
+  top: -160px;
+}

@@ -1,0 +1,44 @@
+.desktop-menu {
+  display: none;
+}
+
+@media (min-width: $media-desktop-size) {
+  .desktop-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: $desktop-menu-height;
+    width: $desktop-menu-width;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $desktop-menu-bg-color;
+    z-index: 100;
+
+    &__list {
+      width: 100%;
+      list-style: none;
+      padding-left: 0px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      opacity: 1;
+      font: $desktop-menu-font;
+
+      &-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        line-height: 40px;
+        color: $nav-text-color;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

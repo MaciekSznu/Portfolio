@@ -1,0 +1,86 @@
+.contact {
+  width: 100%;
+  margin-top: $mobile-menu-height;
+  max-width: 1200px;
+  background: $contact-bg-color;
+
+  &-wrapper {
+    padding-left: 16px;
+
+    .contact-links {
+      @include flex-center-center;
+      flex-direction: column;
+      position: relative;
+      margin: 48px 16px 16px 32px;
+      padding: 32px 16px 16px;
+
+      .section-box-number {
+        @include section-box-number;
+        margin-top: -25px;
+        margin-left: -30px;
+        height: 50px;
+        width: 50px;
+        background-color: $contact-box-bg-color;
+
+        .icon {
+          color: $contact-bg-color;
+          font-size: 1.3em;
+        }
+      }
+
+      .contact-github, .contact-email {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 8px auto;
+
+        &-text {
+          color: $contact-box-bg-color;
+          padding-left: 16px;
+        }
+
+        .contact-item {
+          @include flex-center-center;
+
+          .icons--flat {
+            @include contact-icons;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    
+      &::after {
+        position: absolute;
+        content: '';
+        bottom: -4px;
+        right: -4px;
+        width: 60px;
+        height: 60px;
+        background-color: transparent;
+        border-bottom: 4px solid $contact-box-bg-color;
+        border-right: 4px solid $contact-box-bg-color;
+      }
+    }
+  }
+
+  @media (min-width: $media-mobile-horizontal-size) {
+    .contact-links {
+      flex-direction: row;
+
+      .contact-item {
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media (min-width: $media-tablet-size) {
+
+    .contact-links {
+      margin: 0 16px 16px 32px;
+      .section-box-number {
+        display: none;
+      }
+    }
+  }
+}

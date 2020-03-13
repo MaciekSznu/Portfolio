@@ -1,0 +1,93 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_mobile-menu.scss";
+@import "_desktop-menu.scss";
+@import "_technologies.scss";
+@import "_about-me.scss";
+@import "_projects.scss";
+@import "_contact.scss";
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap");
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  // transition: 0.5s;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.display-none {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  background-color: $body-bg-color;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+
+  .header {
+    width: 100%;
+    height: $mobile-menu-height;
+    background: $desktop-menu-bg-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+    @media (min-width: $media-desktop-size) {
+      height: $desktop-menu-height;
+    }
+  }
+
+  .section-title {
+    font: $section-title-font;
+    padding-bottom: inherit;
+    color: #2a4c40;
+    text-align: left;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  .contact-section-title {
+    @extend .section-title;
+    color: $contact-box-bg-color;
+    margin-top: 16px;
+  }
+
+  .section-subtitle{
+    font: $section-subtitle-font;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #2a4c40;
+  }
+
+  .section-paragraph {
+    font: $section-paragraph-font;
+    color: #2a4c40;
+  }
+}

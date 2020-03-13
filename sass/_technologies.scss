@@ -1,0 +1,129 @@
+.section-technologies {
+  width: 100%;
+  padding: $mobile-menu-height 16px 0;
+  min-height: 300px;
+  max-width: 1200px;
+  background: $section-icons-bg-color;
+  display: flex;
+  justify-content: space-between;
+
+  .technologies-wrapper {
+    width: 100%;
+
+    .icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      padding: 40px 16px 16px 0px;
+      margin: 48px 0 32px 32px;
+      background: #EBF3FA;
+
+      @include bottom-right-border;
+
+      .section-box-number.animated {
+        @include section-box-number;
+        opacity: 0;
+      }
+
+      .section-box-number.visible{
+        @include section-box-number;
+        @include section-box-number-animation;
+      }
+
+      .section-subtitle {
+        width: 100%;
+        text-align: left;
+      }
+
+      &__items {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &-wrapper {
+          @include flex-center-center;
+          flex-direction: column;
+          flex: 0 0 30%;
+
+
+        .icons__items--flat {
+          margin: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: $icon-flat-width;
+          height: $icon-flat-width;
+          background: $icon-flat-bg-color;
+          box-shadow: $icon-flat-box-shadow;
+          border-radius: $icon-flat-border-radius;
+
+          .icon {
+            color: $technology-icon-color;
+          }
+
+          img {
+            // https://codepen.io/sosuke/pen/Pjoqqp
+            filter: invert(94%) sepia(10%) saturate(665%) hue-rotate(126deg) brightness(112%) contrast(102%);
+          }
+        }
+
+        .technology-description {
+          color: $icon-technology-description-color;
+          font: $technology-description-font;
+        }
+      }
+
+        &--pressed {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: $icon-flat-width;
+          height: $icon-flat-width;
+          background: $icon-flat-bg-color;
+          box-shadow: $icon-pressed-box-shadow;
+          border-radius: $icon-flat-border-radius;
+
+          span {
+            color: $technology-icon-color;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: $media-tablet-size) {
+    padding: $mobile-menu-height 8% 0;
+
+    .technologies-wrapper {
+      padding: 0 16px 0 16px;
+    }
+  }
+
+  @media (min-width: $media-desktop-size) {
+    padding: $desktop-menu-height 2% 0;
+
+    .technologies-wrapper {
+     
+      .technologies-icons-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .icons {
+          width:28%;
+          padding: 40px 16px 32px 0px;
+
+          &__items {
+            min-height: 80%;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

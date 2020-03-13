@@ -1,0 +1,103 @@
+// COLORS
+$nav-bg-color: #99cccc;
+$nav-bg-color-hover: #2a4c40;
+$nav-text-color: #2a4c40;
+$nav-text-color-hover: #e6ffff;
+$body-bg-color: #EBF3FA;
+$section-title-text-color: rgb(121, 121, 121);
+$section-title-shadow-color: rgba(109, 109, 109, 0);
+$desktop-menu-bg-color: #e6ffff; //może zminić na #99cccc
+$section-about-bg-color: #EBF3FA;
+$section-about-ico-color: rgba(121, 121, 121, .5);
+$section-icons-bg-color: #EBF3FA;
+$icon-technology-description-color: #2a4c40;
+$box-line-bg-color: #2a4c40;
+$contact-bg-color: #2a4c40;
+$contact-box-bg-color: #EBF3FA;
+$page-title-color: #2a4c40;
+
+// FONTS
+
+$page-title-font: 500 1.6rem "Montserrat", sans-serif;//
+$page-subtitle-font: 500 1.2rem "Montserrat", sans-serif;//
+
+$section-title-font: 500 1.4rem "Montserrat", sans-serif;//
+$section-subtitle-font: 500 1.2rem "Montserrat", sans-serif;//
+$technology-stack-font: 500 1rem "Montserrat", sans-serif;
+$technology-description-font: 600 1rem "Montserrat", sans-serif;//
+$section-box-number-font: 500 1.2rem "Montserrat", sans-serif; //
+$section-paragraph-font: 400 .9rem "Montserrat", sans-serif;
+$mobile-menu-font: 500 0.8rem "Montserrat", sans-serif;
+$desktop-menu-font: 500 1.2rem "Montserrat", sans-serif;
+
+// DIMENSIONS
+$media-mobile-horizontal-size: 640px;
+$media-tablet-size: 768px;
+$media-desktop-size: 1024px;
+$desktop-menu-height: 60px;
+$desktop-menu-width: 100%;
+$mobile-menu-height: 40px;
+
+//BUTTONS
+$button-flat-width: 56px;
+$button-flat-border-radius: 16px;
+$button-flat-bg-color: #E3EDF7;
+$button-flat-box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #FFFFFF;
+$button-flat-hover-box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+
+$button-curved-width: 56px;
+$button-curved-border-radius: 16px;
+$button-curved-bg-color: radial-gradient(315.18% 315.18% at -124.11% -101.79%, #B9CCE2 11.1%, #FFFFFF 85.21%), #E3EDF7;;
+$button-curved-box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.38), -4px -2px 16px rgba(255, 255, 255, 0.7);
+$button-curved-hover-bg-color:#E3EDF7;
+$button-curved-hover-box-shadow: inset 4px 4px 12px rgba(136, 165, 191, 0.4), inset -4px -4px 16px rgba(255, 255, 255, 0.8);
+
+$button-soft-width: 56px;
+$button-soft-border-radius: 42px;
+$button-soft-bg-color: #EDF2F8;
+$button-soft-box-shadow: 6px 4px 24px rgba(136, 165, 191, 0.36), -8px -4px 16px rgba(255, 255, 255, 0.7);
+$button-soft-filter: blur(4px);
+$button-soft-hover-box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+$button-soft-hover-bg-color: radial-gradient(315.18% 315.18% at -124.11% -101.79%, #B9CCE2 11.1%, #FFFFFF 85.21%), #E3EDF7;
+$button-soft-hover-filter: blur(2px);
+
+$button-drop-shadow-width: 200px;
+$button-drop-shadow-border-radius: 30px;
+$button-drop-shadow-bg-color: #E3E6EC;
+$button-drop-shadow-box-shadow: -18px -18px 20px #FFFFFF, 18px 18px 20px #D1D9E6;
+
+$button-inner-shadow-width: 200px;
+$button-inner-shadow-border-radius: 20px;
+$button-inner-shadow-bg-color: #E6E9EF;
+$button-inner-shadow-box-shadow: inset -18px -18px 30px #FFFFFF, inset 18px 18px 30px #D1D9E6;
+
+$button-inner-shadow-circle-width: 200px;
+$button-inner-shadow-circle-border-radius: 1000px;
+$button-inner-shadow-circle-border: 40px solid #E3E6EC;
+$button-inner-shadow-circle-box-shadow: inset -20px -20px 30px #FFFFFF, inset 20px 20px 30px #D1D9E6;
+
+$icon-flat-width: 60px;
+$icon-flat-border-radius: 15px;
+$icon-flat-bg-color: #99cccc;
+$icon-flat-box-shadow: 6px 6px 12px #4d6666,
+-6px -6px 12px #e6ffff;
+$icon-pressed-box-shadow: inset 6px 6px 12px #4d6666,
+inset -6px -6px 12px #e6ffff;
+
+
+$technology-icon-color: #e6ffff;
+
+$portfolio-icon-width: 48px;
+$portfolio-icon-border-radius: 12px;
+$portfolio-icon-bg-color: #99cccc;
+$portfolio-icon-box-shadow: 5px 5px 10px #4d6666,
+-5px -5px 10px #e6ffff;
+$icon-pressed-box-shadow: inset 6px 6px 12px #4d6666,
+inset -6px -6px 12px #e6ffff;
+
+
+$photo-maciek-box-shadow: 20px 20px 40px #4d6666,
+-20px -20px 40px #e6ffff;
+$photo-maciek-border: 2px solid  #4d6666;
+
+$contact-icon-width: 50px;
