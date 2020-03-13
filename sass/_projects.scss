@@ -108,6 +108,10 @@
         min-width: 45%;
         min-height: 750px;
         justify-content: start;
+
+        &-preview {
+          max-height: 300px;
+        }
       }
     }
   }
