@@ -7,7 +7,6 @@
   &-wrapper {
     display: flex;
     flex-direction: column;
-    // flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 
@@ -98,8 +97,6 @@
         flex-direction: column;
         height: 140px;
         border: none;
-        border-left: 2px solid $box-line-bg-color;
-        border-right: 2px solid $box-line-bg-color;
       }
     }
   }
