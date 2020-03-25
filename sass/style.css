@@ -129,7 +129,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: #e6ffff;
+    background: #99cccc;
     z-index: 100;
   }
   .desktop-menu__list {
@@ -176,7 +176,7 @@
   padding: 40px 16px 0;
   min-height: 300px;
   max-width: 1200px;
-  background: #EBF3FA;
+  background: #F3F7FA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +206,6 @@
   position: relative;
   padding: 40px 16px 16px 0px;
   margin: 48px 0 32px 32px;
-  background: #EBF3FA;
 }
 
 .section-technologies .technologies-wrapper .icons::after {
@@ -484,7 +483,6 @@
   position: relative;
   height: 200px;
   width: 200px;
-  border-radius: 16px;
   margin: 32px 0;
   background-image: url(../images/maciek-photo_200x200.jpg);
   -webkit-filter: grayscale(90%) brightness(140%);
@@ -492,7 +490,6 @@
   -webkit-box-shadow: 20px 20px 40px #4d6666, -20px -20px 40px #e6ffff;
           box-shadow: 20px 20px 40px #4d6666, -20px -20px 40px #e6ffff;
   background-position: center;
-  border: 2px solid #4d6666;
 }
 
 .about-wrapper .about--text {
@@ -503,7 +500,6 @@
   padding: 40px 16px 16px 0px;
   position: relative;
   margin: 48px 0 32px 32px;
-  background: #EBF3FA;
 }
 
 .about-wrapper .about--text .section-box::after {
@@ -660,7 +656,7 @@
   min-height: 300px;
   max-width: 1200px;
   padding-top: 40px;
-  background: #EBF3FA;
+  background: #F3F7FA;
 }
 
 .projects-wrapper {
@@ -697,7 +693,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #EBF3FA;
+  background: #F3F7FA;
 }
 
 .projects-wrapper .projects__item::after {
@@ -941,7 +937,6 @@
   padding: 40px 16px 16px 0px;
   position: relative;
   margin: 48px 0 32px 32px;
-  background: #EBF3FA;
 }
 
 .contact-wrapper .section-box::after {
@@ -1071,11 +1066,14 @@
   .contact .contact-wrapper {
     padding: 0 2%;
   }
+  .contact .contact-wrapper .lead-box::before {
+    left: 0;
+  }
+  .contact .contact-wrapper .section-title, .contact .contact-wrapper body .contact-section-title, body .contact .contact-wrapper .contact-section-title {
+    padding-left: 32px;
+  }
   .contact .contact-wrapper .contact-links {
     margin: 0 16px 16px 16px;
-  }
-  .contact .contact-wrapper .contact-links .section-box-number {
-    display: none;
   }
 }
 
@@ -1110,7 +1108,7 @@ html {
 
 body {
   width: 100vw;
-  background-color: #EBF3FA;
+  background-color: #F3F7FA;
   font-family: "Montserrat", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1131,7 +1129,7 @@ body {
 body .header {
   width: 100%;
   height: 40px;
-  background: #e6ffff;
+  background: #99cccc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1163,7 +1161,7 @@ body .section-title, body .contact-section-title {
 }
 
 body .contact-section-title {
-  color: #EBF3FA;
+  color: #F3F7FA;
   margin-top: 16px;
 }
 

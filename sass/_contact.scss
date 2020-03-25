@@ -10,7 +10,6 @@
       padding: 40px 16px 16px 0px;
       position: relative;
       margin: 48px 0 32px 32px;
-      background: #EBF3FA;
 
       @include bottom-right-border;
 
@@ -86,11 +85,17 @@
     .contact-wrapper {
       padding: 0 2%;
 
+      .lead-box::before {
+        left: 0;
+      }
+
+      .section-title {
+        padding-left: 32px;
+      }
+
       .contact-links {
         margin: 0 16px 16px 16px;
-        .section-box-number {
-          display: none;
-        }
+
       }
     }
   }

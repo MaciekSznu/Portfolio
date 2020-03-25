@@ -3,24 +3,22 @@ $nav-bg-color: #99cccc;
 $nav-bg-color-hover: #2a4c40;
 $nav-text-color: #2a4c40;
 $nav-text-color-hover: #e6ffff;
-$body-bg-color: #EBF3FA;
-$section-title-text-color: rgb(121, 121, 121);
+$body-bg-color: #F3F7FA;
+$section-title-text-color: #797979;
 $section-title-shadow-color: rgba(109, 109, 109, 0);
-$desktop-menu-bg-color: #e6ffff; //może zminić na #99cccc
-$section-about-bg-color: #EBF3FA;
+$desktop-menu-bg-color: #99cccc;
+$section-about-bg-color: #F3F7FA;
 $section-about-ico-color: rgba(121, 121, 121, .5);
-$section-icons-bg-color: #EBF3FA;
+$section-icons-bg-color: #F3F7FA;
 $icon-technology-description-color: #2a4c40;
 $box-line-bg-color: #2a4c40;
 $contact-bg-color: #2a4c40;
-$contact-box-bg-color: #EBF3FA;
+$contact-box-bg-color: #F3F7FA;
 $page-title-color: #2a4c40;
 
 // FONTS
-
 $page-title-font: 500 1.6rem "Montserrat", sans-serif;//
 $page-subtitle-font: 500 1.2rem "Montserrat", sans-serif;//
-
 $section-title-font: 500 1.4rem "Montserrat", sans-serif;//
 $section-subtitle-font: 500 1.2rem "Montserrat", sans-serif;//
 $technology-stack-font: 500 1rem "Montserrat", sans-serif;
@@ -84,9 +82,6 @@ $icon-flat-box-shadow: 6px 6px 12px #4d6666,
 $icon-pressed-box-shadow: inset 6px 6px 12px #4d6666,
 inset -6px -6px 12px #e6ffff;
 
-
-$technology-icon-color: #e6ffff;
-
 $portfolio-icon-width: 48px;
 $portfolio-icon-border-radius: 12px;
 $portfolio-icon-bg-color: #99cccc;
@@ -95,9 +90,9 @@ $portfolio-icon-box-shadow: 5px 5px 10px #4d6666,
 $icon-pressed-box-shadow: inset 6px 6px 12px #4d6666,
 inset -6px -6px 12px #e6ffff;
 
-
 $photo-maciek-box-shadow: 20px 20px 40px #4d6666,
 -20px -20px 40px #e6ffff;
 $photo-maciek-border: 2px solid  #4d6666;
 
 $contact-icon-width: 50px;
+$technology-icon-color: #e6ffff;
