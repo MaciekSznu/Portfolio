@@ -1173,7 +1173,7 @@ body .section-subtitle {
 }
 
 body .section-paragraph {
-  font: 400 0.9rem "Montserrat", sans-serif;
+  font: 400 0.9rem/1.5 "Montserrat", sans-serif;
   color: #2a4c40;
 }
 /*# sourceMappingURL=style.css.map */
