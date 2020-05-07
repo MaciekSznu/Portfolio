@@ -23,14 +23,8 @@
       @include bottom-right-border;
 
 
-      .section-box-number.animated {
+      .section-box-number {
         @include section-box-number;
-        opacity: 0;
-      }
-
-      .section-box-number.visible{
-        @include section-box-number;
-        @include section-box-number-animation;
       }
 
       &-title {

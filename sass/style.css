@@ -220,7 +220,7 @@
   border-right: 4px solid #2a4c40;
 }
 
-.section-technologies .technologies-wrapper .icons .section-box-number.animated {
+.section-technologies .technologies-wrapper .icons .section-box-number {
   position: absolute;
   display: block;
   top: 0;
@@ -242,53 +242,6 @@
           align-items: center;
   color: white;
   font: 500 1.2rem "Montserrat", sans-serif;
-  -webkit-animation: section-box-number-animation 2.5s;
-          animation: section-box-number-animation 2.5s;
-  opacity: 0;
-}
-
-.section-technologies .technologies-wrapper .icons .section-box-number.visible {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  margin-top: -30px;
-  margin-left: -30px;
-  height: 60px;
-  width: 60px;
-  background: #2a4c40;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  font: 500 1.2rem "Montserrat", sans-serif;
-  -webkit-animation: section-box-number-animation 2.5s;
-          animation: section-box-number-animation 2.5s;
-}
-
-@-webkit-keyframes section-box-number-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes section-box-number-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .section-technologies .technologies-wrapper .icons .section-subtitle {
@@ -514,7 +467,7 @@
   border-right: 4px solid #2a4c40;
 }
 
-.about-wrapper .about--text .section-box .section-box-number.animated {
+.about-wrapper .about--text .section-box .section-box-number {
   position: absolute;
   display: block;
   top: 0;
@@ -536,44 +489,6 @@
           align-items: center;
   color: white;
   font: 500 1.2rem "Montserrat", sans-serif;
-  -webkit-animation: section-box-number-animation 2.5s;
-          animation: section-box-number-animation 2.5s;
-  opacity: 0;
-}
-
-.about-wrapper .about--text .section-box .section-box-number.visible {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  margin-top: -30px;
-  margin-left: -30px;
-  height: 60px;
-  width: 60px;
-  background: #2a4c40;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  font: 500 1.2rem "Montserrat", sans-serif;
-  -webkit-animation: section-box-number-animation 2.5s;
-          animation: section-box-number-animation 2.5s;
-}
-
-@keyframes section-box-number-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .about-wrapper .about--text .lead-box {
@@ -708,7 +623,7 @@
   border-right: 4px solid #2a4c40;
 }
 
-.projects-wrapper .projects__item .section-box-number.animated {
+.projects-wrapper .projects__item .section-box-number {
   position: absolute;
   display: block;
   top: 0;
@@ -730,44 +645,6 @@
           align-items: center;
   color: white;
   font: 500 1.2rem "Montserrat", sans-serif;
-  -webkit-animation: section-box-number-animation 2.5s;
-          animation: section-box-number-animation 2.5s;
-  opacity: 0;
-}
-
-.projects-wrapper .projects__item .section-box-number.visible {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  margin-top: -30px;
-  margin-left: -30px;
-  height: 60px;
-  width: 60px;
-  background: #2a4c40;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: white;
-  font: 500 1.2rem "Montserrat", sans-serif;
-  -webkit-animation: section-box-number-animation 2.5s;
-          animation: section-box-number-animation 2.5s;
-}
-
-@keyframes section-box-number-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .projects-wrapper .projects__item-title {

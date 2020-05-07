@@ -36,47 +36,47 @@ mobileMenuItems.forEach((item, index) => {
 });
 
 
-/* BOX_NUMBERS ANIMATIONS */
+// /* BOX_NUMBERS ANIMATIONS */
 
-const animateSectionNumberBox = () => {
-  let elements;
-  let windowHeight;
+// const animateSectionNumberBox = () => {
+//   let elements;
+//   let windowHeight;
 
-  const init = () => {
-    elements = document.querySelectorAll('.animated');
-    windowHeight = window.innerHeight;
-    addEventHandlers();
-    checkPosition();
-  }
+//   const init = () => {
+//     elements = document.querySelectorAll('.animated');
+//     windowHeight = window.innerHeight;
+//     addEventHandlers();
+//     checkPosition();
+//   }
 
-  const addEventHandlers = () => {
-    window.addEventListener('scroll', checkPosition);
-    window.addEventListener('resize', init);
-  }
+//   const addEventHandlers = () => {
+//     window.addEventListener('scroll', checkPosition);
+//     window.addEventListener('resize', init);
+//   }
 
-  const checkPosition = () => {
-    for (let i = 0; i < elements.length; i++) {
-      let positionFromTop = elements[i].getBoundingClientRect().top;
+//   const checkPosition = () => {
+//     for (let i = 0; i < elements.length; i++) {
+//       let positionFromTop = elements[i].getBoundingClientRect().top;
 
-      if (positionFromTop - windowHeight <= 0) {
-        elements[i].className = elements[i].className.replace(
-          'animated',
-          'visible'
-        );
-      }
+//       if (positionFromTop - windowHeight <= 0) {
+//         elements[i].className = elements[i].className.replace(
+//           'animated',
+//           'visible'
+//         );
+//       }
   
-      if ((positionFromTop - windowHeight > 1) || (positionFromTop < 0)) {
-        elements[i].className = elements[i].className.replace(
-          'visible',
-          'animated'
-        );
-      }
-    }
-  };
+//       if ((positionFromTop - windowHeight > 1) || (positionFromTop < 0)) {
+//         elements[i].className = elements[i].className.replace(
+//           'visible',
+//           'animated'
+//         );
+//       }
+//     }
+//   };
 
-  init();
-  checkPosition();
+//   init();
+//   checkPosition();
 
-};
+// };
 
-animateSectionNumberBox();
+// animateSectionNumberBox();
