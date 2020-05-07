@@ -69,14 +69,6 @@
   align-items: center;
   color: white;
   font: $section-box-number-font;
-  animation: section-box-number-animation 2.5s;
-}
-
-@mixin section-box-number-animation {
-  @keyframes section-box-number-animation {
-    from {opacity: 0}
-    to {opacity: 1;}
-  }
 }
 
 @mixin bottom-right-border {
